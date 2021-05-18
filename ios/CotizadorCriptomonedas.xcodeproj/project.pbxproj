@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* CriptomonedasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CriptomonedasTests.m */; };
+		00E356F31AD99517003FC87E /* CotizadorCriptomonedasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CotizadorCriptomonedasTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2CF392C1797721EA3BF81659 /* libPods-Criptomonedas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A87F1B082A3F6D60968E7F6C /* libPods-Criptomonedas.a */; };
-		5DE3EA07B30AC37E7312A835 /* libPods-Criptomonedas-CriptomonedasTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2C688796CF86A3F9CD3CB6 /* libPods-Criptomonedas-CriptomonedasTests.a */; };
+		265B83B2F22F47D3B27E9550 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7C06C40542947BC87C388B2 /* Lato-Regular.ttf */; };
+		2CF392C1797721EA3BF81659 /* libPods-CotizadorCriptomonedas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A87F1B082A3F6D60968E7F6C /* libPods-CotizadorCriptomonedas.a */; };
+		5DE3EA07B30AC37E7312A835 /* libPods-CotizadorCriptomonedas-CotizadorCriptomonedasTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2C688796CF86A3F9CD3CB6 /* libPods-CotizadorCriptomonedas-CotizadorCriptomonedasTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		CFD684A8BBB842F991BFD8D0 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4C6DC767830429EA1D65BA7 /* Lato-Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,27 +24,29 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Criptomonedas;
+			remoteInfo = CotizadorCriptomonedas;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* CriptomonedasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CriptomonedasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* CotizadorCriptomonedasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CotizadorCriptomonedasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* CriptomonedasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CriptomonedasTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Criptomonedas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Criptomonedas.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Criptomonedas/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Criptomonedas/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Criptomonedas/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Criptomonedas/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Criptomonedas/main.m; sourceTree = "<group>"; };
-		14504F80272E11FDF88EDFB3 /* Pods-Criptomonedas-CriptomonedasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Criptomonedas-CriptomonedasTests.debug.xcconfig"; path = "Target Support Files/Pods-Criptomonedas-CriptomonedasTests/Pods-Criptomonedas-CriptomonedasTests.debug.xcconfig"; sourceTree = "<group>"; };
-		198BB60E7605C8D43119D10D /* Pods-Criptomonedas-CriptomonedasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Criptomonedas-CriptomonedasTests.release.xcconfig"; path = "Target Support Files/Pods-Criptomonedas-CriptomonedasTests/Pods-Criptomonedas-CriptomonedasTests.release.xcconfig"; sourceTree = "<group>"; };
-		23B35E40F89C98398F204C48 /* Pods-Criptomonedas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Criptomonedas.debug.xcconfig"; path = "Target Support Files/Pods-Criptomonedas/Pods-Criptomonedas.debug.xcconfig"; sourceTree = "<group>"; };
-		5A2C688796CF86A3F9CD3CB6 /* libPods-Criptomonedas-CriptomonedasTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Criptomonedas-CriptomonedasTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Criptomonedas/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A87F1B082A3F6D60968E7F6C /* libPods-Criptomonedas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Criptomonedas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB17AB14954C87CB2F93C177 /* Pods-Criptomonedas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Criptomonedas.release.xcconfig"; path = "Target Support Files/Pods-Criptomonedas/Pods-Criptomonedas.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* CotizadorCriptomonedasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CotizadorCriptomonedasTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* CotizadorCriptomonedas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CotizadorCriptomonedas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CotizadorCriptomonedas/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CotizadorCriptomonedas/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CotizadorCriptomonedas/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CotizadorCriptomonedas/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CotizadorCriptomonedas/main.m; sourceTree = "<group>"; };
+		14504F80272E11FDF88EDFB3 /* Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests.debug.xcconfig"; path = "Target Support Files/Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests/Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		198BB60E7605C8D43119D10D /* Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests.release.xcconfig"; path = "Target Support Files/Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests/Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests.release.xcconfig"; sourceTree = "<group>"; };
+		23B35E40F89C98398F204C48 /* Pods-CotizadorCriptomonedas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CotizadorCriptomonedas.debug.xcconfig"; path = "Target Support Files/Pods-CotizadorCriptomonedas/Pods-CotizadorCriptomonedas.debug.xcconfig"; sourceTree = "<group>"; };
+		5A2C688796CF86A3F9CD3CB6 /* libPods-CotizadorCriptomonedas-CotizadorCriptomonedasTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CotizadorCriptomonedas-CotizadorCriptomonedasTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CotizadorCriptomonedas/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4C6DC767830429EA1D65BA7 /* Lato-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Black.ttf"; path = "../assets/fonts/Lato-Black.ttf"; sourceTree = "<group>"; };
+		A87F1B082A3F6D60968E7F6C /* libPods-CotizadorCriptomonedas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CotizadorCriptomonedas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB17AB14954C87CB2F93C177 /* Pods-CotizadorCriptomonedas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CotizadorCriptomonedas.release.xcconfig"; path = "Target Support Files/Pods-CotizadorCriptomonedas/Pods-CotizadorCriptomonedas.release.xcconfig"; sourceTree = "<group>"; };
+		E7C06C40542947BC87C388B2 /* Lato-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Regular.ttf"; path = "../assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DE3EA07B30AC37E7312A835 /* libPods-Criptomonedas-CriptomonedasTests.a in Frameworks */,
+				5DE3EA07B30AC37E7312A835 /* libPods-CotizadorCriptomonedas-CotizadorCriptomonedasTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +63,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CF392C1797721EA3BF81659 /* libPods-Criptomonedas.a in Frameworks */,
+				2CF392C1797721EA3BF81659 /* libPods-CotizadorCriptomonedas.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* CriptomonedasTests */ = {
+		00E356EF1AD99517003FC87E /* CotizadorCriptomonedasTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* CriptomonedasTests.m */,
+				00E356F21AD99517003FC87E /* CotizadorCriptomonedasTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = CriptomonedasTests;
+			path = CotizadorCriptomonedasTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +87,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Criptomonedas */ = {
+		0B505674BEE1489CBF82FECA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4C6DC767830429EA1D65BA7 /* Lato-Black.ttf */,
+				E7C06C40542947BC87C388B2 /* Lato-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* CotizadorCriptomonedas */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +107,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Criptomonedas;
+			name = CotizadorCriptomonedas;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				A87F1B082A3F6D60968E7F6C /* libPods-Criptomonedas.a */,
-				5A2C688796CF86A3F9CD3CB6 /* libPods-Criptomonedas-CriptomonedasTests.a */,
+				A87F1B082A3F6D60968E7F6C /* libPods-CotizadorCriptomonedas.a */,
+				5A2C688796CF86A3F9CD3CB6 /* libPods-CotizadorCriptomonedas-CotizadorCriptomonedasTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,10 +123,10 @@
 		44DCEBAD852D0E051085F554 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				23B35E40F89C98398F204C48 /* Pods-Criptomonedas.debug.xcconfig */,
-				CB17AB14954C87CB2F93C177 /* Pods-Criptomonedas.release.xcconfig */,
-				14504F80272E11FDF88EDFB3 /* Pods-Criptomonedas-CriptomonedasTests.debug.xcconfig */,
-				198BB60E7605C8D43119D10D /* Pods-Criptomonedas-CriptomonedasTests.release.xcconfig */,
+				23B35E40F89C98398F204C48 /* Pods-CotizadorCriptomonedas.debug.xcconfig */,
+				CB17AB14954C87CB2F93C177 /* Pods-CotizadorCriptomonedas.release.xcconfig */,
+				14504F80272E11FDF88EDFB3 /* Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests.debug.xcconfig */,
+				198BB60E7605C8D43119D10D /* Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -128,12 +142,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Criptomonedas */,
+				13B07FAE1A68108700A75B9A /* CotizadorCriptomonedas */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* CriptomonedasTests */,
+				00E356EF1AD99517003FC87E /* CotizadorCriptomonedasTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				44DCEBAD852D0E051085F554 /* Pods */,
+				0B505674BEE1489CBF82FECA /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -143,8 +158,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Criptomonedas.app */,
-				00E356EE1AD99517003FC87E /* CriptomonedasTests.xctest */,
+				13B07F961A680F5B00A75B9A /* CotizadorCriptomonedas.app */,
+				00E356EE1AD99517003FC87E /* CotizadorCriptomonedasTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,9 +167,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* CriptomonedasTests */ = {
+		00E356ED1AD99517003FC87E /* CotizadorCriptomonedasTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CriptomonedasTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CotizadorCriptomonedasTests" */;
 			buildPhases = (
 				F8F3FF29BD1595687AEAA38C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -168,14 +183,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = CriptomonedasTests;
-			productName = CriptomonedasTests;
-			productReference = 00E356EE1AD99517003FC87E /* CriptomonedasTests.xctest */;
+			name = CotizadorCriptomonedasTests;
+			productName = CotizadorCriptomonedasTests;
+			productReference = 00E356EE1AD99517003FC87E /* CotizadorCriptomonedasTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Criptomonedas */ = {
+		13B07F861A680F5B00A75B9A /* CotizadorCriptomonedas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Criptomonedas" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CotizadorCriptomonedas" */;
 			buildPhases = (
 				F1A50D31B2DF765D22322840 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -190,9 +205,9 @@
 			);
 			dependencies = (
 			);
-			name = Criptomonedas;
-			productName = Criptomonedas;
-			productReference = 13B07F961A680F5B00A75B9A /* Criptomonedas.app */;
+			name = CotizadorCriptomonedas;
+			productName = CotizadorCriptomonedas;
+			productReference = 13B07F961A680F5B00A75B9A /* CotizadorCriptomonedas.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Criptomonedas" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CotizadorCriptomonedas" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +240,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Criptomonedas */,
-				00E356ED1AD99517003FC87E /* CriptomonedasTests */,
+				13B07F861A680F5B00A75B9A /* CotizadorCriptomonedas */,
+				00E356ED1AD99517003FC87E /* CotizadorCriptomonedasTests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,6 +260,8 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				CFD684A8BBB842F991BFD8D0 /* Lato-Black.ttf in Resources */,
+				265B83B2F22F47D3B27E9550 /* Lato-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,15 +288,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Criptomonedas-CriptomonedasTests/Pods-Criptomonedas-CriptomonedasTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests/Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Criptomonedas-CriptomonedasTests/Pods-Criptomonedas-CriptomonedasTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests/Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Criptomonedas-CriptomonedasTests/Pods-Criptomonedas-CriptomonedasTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests/Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6F70986EA92493D16F6CB414 /* [CP] Copy Pods Resources */ = {
@@ -288,15 +305,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Criptomonedas/Pods-Criptomonedas-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CotizadorCriptomonedas/Pods-CotizadorCriptomonedas-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Criptomonedas/Pods-Criptomonedas-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CotizadorCriptomonedas/Pods-CotizadorCriptomonedas-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Criptomonedas/Pods-Criptomonedas-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CotizadorCriptomonedas/Pods-CotizadorCriptomonedas-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CCC76F427729592FA7982EAE /* [CP] Embed Pods Frameworks */ = {
@@ -305,15 +322,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Criptomonedas/Pods-Criptomonedas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CotizadorCriptomonedas/Pods-CotizadorCriptomonedas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Criptomonedas/Pods-Criptomonedas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CotizadorCriptomonedas/Pods-CotizadorCriptomonedas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Criptomonedas/Pods-Criptomonedas-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CotizadorCriptomonedas/Pods-CotizadorCriptomonedas-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EF91D04C31D4AE1192F167F1 /* [CP] Embed Pods Frameworks */ = {
@@ -322,15 +339,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Criptomonedas-CriptomonedasTests/Pods-Criptomonedas-CriptomonedasTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests/Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Criptomonedas-CriptomonedasTests/Pods-Criptomonedas-CriptomonedasTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests/Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Criptomonedas-CriptomonedasTests/Pods-Criptomonedas-CriptomonedasTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests/Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F1A50D31B2DF765D22322840 /* [CP] Check Pods Manifest.lock */ = {
@@ -348,7 +365,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Criptomonedas-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CotizadorCriptomonedas-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -370,7 +387,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Criptomonedas-CriptomonedasTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -403,7 +420,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* CriptomonedasTests.m in Sources */,
+				00E356F31AD99517003FC87E /* CotizadorCriptomonedasTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +438,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Criptomonedas */;
+			target = 13B07F861A680F5B00A75B9A /* CotizadorCriptomonedas */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +446,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14504F80272E11FDF88EDFB3 /* Pods-Criptomonedas-CriptomonedasTests.debug.xcconfig */;
+			baseConfigurationReference = 14504F80272E11FDF88EDFB3 /* Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CriptomonedasTests/Info.plist;
+				INFOPLIST_FILE = CotizadorCriptomonedasTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,17 +467,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Criptomonedas.app/Criptomonedas";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CotizadorCriptomonedas.app/CotizadorCriptomonedas";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 198BB60E7605C8D43119D10D /* Pods-Criptomonedas-CriptomonedasTests.release.xcconfig */;
+			baseConfigurationReference = 198BB60E7605C8D43119D10D /* Pods-CotizadorCriptomonedas-CotizadorCriptomonedasTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = CriptomonedasTests/Info.plist;
+				INFOPLIST_FILE = CotizadorCriptomonedasTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,19 +491,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Criptomonedas.app/Criptomonedas";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CotizadorCriptomonedas.app/CotizadorCriptomonedas";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23B35E40F89C98398F204C48 /* Pods-Criptomonedas.debug.xcconfig */;
+			baseConfigurationReference = 23B35E40F89C98398F204C48 /* Pods-CotizadorCriptomonedas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Criptomonedas/Info.plist;
+				INFOPLIST_FILE = CotizadorCriptomonedas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +514,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Criptomonedas;
+				PRODUCT_NAME = CotizadorCriptomonedas;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +523,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB17AB14954C87CB2F93C177 /* Pods-Criptomonedas.release.xcconfig */;
+			baseConfigurationReference = CB17AB14954C87CB2F93C177 /* Pods-CotizadorCriptomonedas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Criptomonedas/Info.plist;
+				INFOPLIST_FILE = CotizadorCriptomonedas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +539,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Criptomonedas;
+				PRODUCT_NAME = CotizadorCriptomonedas;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -654,7 +671,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CriptomonedasTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CotizadorCriptomonedasTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -663,7 +680,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Criptomonedas" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CotizadorCriptomonedas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -672,7 +689,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Criptomonedas" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CotizadorCriptomonedas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
